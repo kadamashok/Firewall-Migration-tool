@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: "Segoe UI", "Helvetica Neue", sans-serif;
+}
+
+body {
+  margin: 0;
+  background: radial-gradient(circle at top left, #f5fbff, #eef2f8 40%, #e8eef7);
+  min-height: 100vh;
+}
+
+.panel {
+  @apply rounded-xl bg-white/80 shadow-lg backdrop-blur border border-slate-200;
+}
